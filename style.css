@@ -1,0 +1,81 @@
+body
+{
+    height: 1000px;
+    background: radial-gradient(white, #fbead3);
+}
+
+
+.button-one {
+    width: 80%;
+    height: 40px;
+    padding: 10px 25px;
+    border: 2px solid rgb(78, 53, 8);
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    display:block;
+    margin:auto;
+    margin-bottom: 15px;
+}
+
+.logo_SKI
+{
+    margin-top: 4%;
+    max-width: 30%;
+    float: left;
+}
+
+.logo_kon
+{
+    max-width: 25%;
+    float: right;
+}
+
+.mobile
+{
+    max-width: 350px;
+    margin: 0 auto;
+    
+}
+
+.name
+{
+    display:block;
+    margin:auto;
+    padding-top: 14%;
+    max-width: 90%;
+}
+
+.strategia
+{
+    color: rgb(144, 119, 65);
+    padding-top: 25%;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.button
+{
+    width: 40%;
+    height: 50px;
+    border: 2px solid rgb(78, 53, 8);
+}
+
+
+.niz-knopki
+{
+    max-width: 350px;
+    position: absolute;
+    display:block; 
+    left: 50%;
+    margin: 0 auto;
+    bottom: 10px; 
+    width: 80%; 
+    text-align: center; 
+    z-index: 1;
+}
