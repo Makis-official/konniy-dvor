@@ -1,24 +1,51 @@
 body
 {
-    height: 1000px;
+    height: 750px;
     background: radial-gradient(white, #fbead3);
 }
 
 
 .button-one {
-    width: 80%;
-    height: 40px;
-    padding: 10px 25px;
-    border: 2px solid rgb(78, 53, 8);
-    font-weight: 500;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
+    box-sizing: border-box;
+    width: 90%;
+    height: 80px;
+    
+    background: #70624B;
+    color: white;
+    border-radius: 12px;
+    border: none;
     position: relative;
     display: inline-block;
     display:block;
     margin:auto;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.button-strategia
+{
+    box-sizing: border-box;
+    width: 90%;
+    height: 50px;
+    
+    background: #70624B;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    display: inline-block;
+    display:block;
+    margin:auto;
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
 }
 
 .logo_SKI
@@ -45,37 +72,85 @@ body
 {
     display:block;
     margin:auto;
-    padding-top: 14%;
+    padding-top: 24%;
+    padding-bottom: 24%;
     max-width: 90%;
 }
 
 .strategia
 {
-    color: rgb(144, 119, 65);
-    padding-top: 25%;
+    padding-bottom: 20%;
     text-align: center;
-    font-size: 35px;
+    font-size: 17.25px;
+    min-inline-size: 12%;
     font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #9C8C6B;
+    margin: 6px auto;
 }
 
 
 .button
 {
     width: 40%;
+    border-radius: 6px;
     height: 50px;
-    border: 2px solid rgb(78, 53, 8);
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #9C8C6B;
+    letter-spacing: 0.1em;
 }
 
 
 .niz-knopki
 {
-    max-width: 350px;
+    max-width: 900px;
     position: absolute;
     display:block; 
-    left: 15%;
+    left: 10%;
     margin: 0 auto;
-    bottom: 10px; 
+    bottom: 15px; 
     width: 80%; 
     text-align: center; 
     z-index: 1;
+}
+
+.manedio
+{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 8px;
+    color: #BFAB8A;
+    margin: 0 auto;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding-top: 50%;
+    padding-bottom: 25px;
+}
+
+a{
+    text-decoration:none;
+    cursor: pointer;
+}
+
+.horse
+{
+    max-width: 90%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display:block; 
+    text-align: center;
+    margin: 0 auto;
+}
+
+.kon_stihia
+{
+    max-width: 90%;
+    display:block; 
+    text-align: center;
+    padding-bottom: 40px;
+    margin: 0 auto;
 }
