@@ -21,13 +21,8 @@
                             document.getElementById("pause").addEventListener('click', function() {
                                 this.vid.pause();
                             }.bind(this));
-                },
-                
-                 init: function () {
-                    var marker = this.el;
-                    this.vid = document.querySelector("#vid");
-
-                    marker.addEventListener('markerFound', function () {
+                    
+                                        marker.addEventListener('markerFound', function () {
                         this.toggle = true;
                         this.vid.play();
                     }.bind(this));
@@ -36,7 +31,8 @@
                         this.toggle = false;
                         this.vid.pause();
                     }.bind(this));
-                }
+                },
+                
             });
         </script>
     </head>
