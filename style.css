@@ -112,6 +112,7 @@
 
 .niz-knopki
 {
+    position: absolute;
     max-width: 900px;
     display:block; 
     left: 10%;
