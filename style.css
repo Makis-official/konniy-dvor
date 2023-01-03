@@ -112,12 +112,12 @@
 
 .niz-knopki
 {
+    display:block; 
     position: absolute;
     max-width: 900px;
-    display:block; 
     left: 10%;
     margin: 0 auto;
-    bottom: 25px; 
+    bottom: 15px; 
     width: 80%; 
     text-align: center; 
     z-index: 1;
