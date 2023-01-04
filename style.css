@@ -239,7 +239,8 @@ a{
     position: absolute;
     top: 30px;
     left: 8%;
-    min-width: 12%;
+    min-width: 5%;
+    max-width: 15%;
 }
 
 .instrukcia
